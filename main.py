@@ -25,16 +25,3 @@ async def create_upload_file(dataset: UploadFile = File(...)):
         return FileResponse("response.html")
     else:
         return
-
-
-@app.get("/response", response_class=HTMLResponse)
-async def home(request: Request):
-    message = "Welcome to Sling Academy"
-
-    return templates.TemplateResponse(
-        "response.html",
-        {
-            "request": request,
-            "message": message,
-        }
-)
