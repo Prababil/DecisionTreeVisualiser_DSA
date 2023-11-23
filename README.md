@@ -1,7 +1,10 @@
 # DecisionTreeVisualiser_DSA
 
+make sure that pip is installed on the system before proceeding on with the following steps.
+
 run the following command on the terminal to run the server: 
 ```
+pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
