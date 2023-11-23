@@ -1,9 +1,9 @@
 # DecisionTreeVisualiser_DSA
 
 run the following command to run the server: 
-...
+```
 uvicorn main:app --reload
-...
+```
 
 Then paste the following link to the browser:
 http://127.0.0.1:8000
