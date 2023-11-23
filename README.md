@@ -1,6 +1,6 @@
 # DecisionTreeVisualiser_DSA
 
-run the following command to run the server: 
+run the following command on the terminal to run the server: 
 ```
 uvicorn main:app --reload
 ```
